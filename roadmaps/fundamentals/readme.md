@@ -14,17 +14,18 @@ graph TD
     databases --> testing(Testing)
 
 %% Skills
-click git "../skills/git/readme.md"
-click network "../skills/network/readme.md"
-click algorithm "../skills/algorithm/readme.md"
-click oop "../skills/oop/readme.md"
-click patterns "../skills/patterns/readme.md"
-click databases "../skills/databases/readme.md"
+click business-communication "ArtemySinitsa/labs/blob/main/skills/business-communication/readme.md"
+click git "ArtemySinitsa/labs/blob/main/skills/git/readme.md"
+click network "ArtemySinitsa/labs/blob/main/skills/network/readme.md"
+click algorithm "ArtemySinitsa/labs/blob/main/skills/algorithm/readme.md"
+click oop "ArtemySinitsa/labs/blob/main/skills/oop/readme.md"
+click patterns "ArtemySinitsa/labs/blob/main/skills/patterns/readme.md"
+click databases "ArtemySinitsa/labs/blob/main/skills/databases/readme.md"
 
 %% Roadmaps
-click frontend "../frontend/readme.md"
-click testing "../testing/readme.md"
-click mobile "../mobile/readme.md"
-click backend "../backend/readme.md"
+click frontend "ArtemySinitsa/labs/blob/main/roadmaps/frontend/readme.md"
+click testing "ArtemySinitsa/labs/blob/main/roadmaps/testing/readme.md"
+click mobile "ArtemySinitsa/labs/blob/main/roadmaps/mobile/readme.md"
+click backend "ArtemySinitsa/labs/blob/main/roadmaps/backend/readme.md"
 
 ```
