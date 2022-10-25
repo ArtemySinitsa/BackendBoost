@@ -15,13 +15,15 @@ Git, Business Communication
 ```
 
 ### Roadmap
-Roadmap is a set of skills that is required for a specific specialization. 
+Roadmap is a set of skills that is required for a specific specialization.
+
 **Example:**
 ```
 Frontend, Testing
 ```
 
-Roadmap can be based on another roadmap. 
+Roadmap can be based on another roadmap.
+ 
 **Example:**
 ```
 React Frontend, Manual Testing, Automation Testing
