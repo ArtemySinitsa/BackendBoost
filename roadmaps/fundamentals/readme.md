@@ -1,7 +1,7 @@
 # Fundamentals
 
 ## Skills
-* [Business Communication](../../business-communication/git/readme.md)
+* [Business Communication](../../skills/business-communication/readme.md)
 * [Git](../../skills/git/readme.md)
 * [Network](../../skills/network/readme.md)
 * [Algorithm](../../skills/algorithm/readme.md)
