@@ -13,14 +13,13 @@
 * GithubFlow
 * Tags
 
-VCS and Git (Russian, beginner, access with itechart email):
-https://itechartgroupinc.sharepoint.com/:f:/s/U1labs/Eij4HW8A5jNBnblUWY0a1OsBh8MfHH0xnmHxkbL-P054xg?e=OBvuSD
+## Materials
 
-Git workflows (English, advanced, access with itechart email):
-https://itechartgroupinc.sharepoint.com/:f:/s/U1labs/Ei55QD_1gPZIhbBMblCBZ7cBK8GaWiXvEiZoPnPe4nyoPg?e=lvxTed
-
-Exercise: Learn git branches (English, beginner):
-https://learngitbranching.js.org/
-
-Book (English, from beginner to advanced+):
-https://git-scm.com/book/en/v2
+| Title                                                         | Type | Description                                                              | Level |
+|---------------------------------------------------------------|------|--------------------------------------------------------------------------|-------|
+| Git - Intro for all.pptx                                      | ppt  | What is Git and why we need it                                           | 1     |
+| Git - Features.pptx                                           | ppt  | Git features commonly used for storage and sharing of source code        | 2     |
+| Git - Workflows.pptx                                          | ppt  | Approaches that are used to improve team collaboration and app delivery  | 2 - 3 |
+| [Atlassian tutorial](https://www.atlassian.com/git/tutorials) | text | Good text tutorial from the creator of BitBucket                         | 1 - 3 |
+| [Pro Git book](https://git-scm.com/book/en/v2)                | text | Book that explains git from basics to internals                          | 1 - 3 |
+| [Learn git branches](https://learngitbranching.js.org/)       | app  | Interactive tutorial that teaches many git features related to branching | 2 - 3 |
