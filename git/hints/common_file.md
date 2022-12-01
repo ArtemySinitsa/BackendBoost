@@ -43,7 +43,7 @@
 | (pre-steps) | Complete scenario (Add+Push Commit)                          |  |
 | 1           | Change author's name and email                               |  |
 | 2           | Perform steps (pre-steps, 1-3) of scenario 'Add+Push Commit' | In a git tab check, that name of author and email for the last commit has changed. Navigate to GitHub, check same fields there as well.  |
-| 3           |Return to previously set name and email.Repeat step 2.                                    |  |
+| 3           | Return to previously set name and email.Repeat step 2.       |  |
 
 ------- Reset branch to commit -------<br/>
 
