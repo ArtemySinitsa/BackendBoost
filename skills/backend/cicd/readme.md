@@ -9,7 +9,7 @@
 * Deployments provider (TBD)
 
 
-## Theoretical Materials| Name                                                                                                                                        | Type     | Short Description                                         
+## Theoretical Materials                                                                                                                                        | Type     | Short Description                                         
 
 | Name                                                                                                                                                                 | Type     | Short Description                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-------------------------------------------------------------|
