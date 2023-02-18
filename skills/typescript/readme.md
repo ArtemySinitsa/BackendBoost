@@ -30,9 +30,10 @@ A strongly typed programming language that builds on JavaScript
 1. Migrate an existing project to TypeScript or initialize a new one.
    - Make sure that linter and tsconfig are set up
    - Make sure that compilation runs without errors
-2. Improve classes using access modifiers and interface implementations.
-3. Create a Generic (for example `IRepository<T>`)
-4. Use a Utility Type
+2. Add types for environment variables.
+3. Improve classes using access modifiers and interface implementations.
+4. Create a Generic (for example `IRepository<T>`)
+5. Use a Utility Type
 
 ## Materials
 
