@@ -2,7 +2,10 @@
 
 ## Description
 
-A strongly typed programming language that builds on JavaScript
+A strongly typed programming language that builds on JavaScript and brings valuable benefits:
+- Better code quality: TypeScript provides developers with the ability to catch errors early on in the development process. This helps to reduce the likelihood of runtime errors and improves the overall reliability of the code.
+- Enhanced code maintainability: With its strong typing system and support for interfaces, TypeScript can make code more maintainable and easier to refactor. This can be particularly helpful when working on large-scale projects or when collaborating with other developers.
+- Enhanced productivity: TypeScript provides several features such as code completion, type checking, and refactoring support that can help to improve developer productivity.
 
 ## Topics
 
