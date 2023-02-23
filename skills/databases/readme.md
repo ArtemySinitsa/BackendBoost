@@ -14,8 +14,6 @@ In summary, backend developers should learn about both SQL and NoSQL databases b
 
 ## Topics
 
-https://learn.microsoft.com/en-us/sql/t-sql/language-elements/transactions-transact-sql?view=sql-server-ver16
-
 - Fundamentals Structured Query Language
 - Tables, Views, Stored procedures
 - Indexes
