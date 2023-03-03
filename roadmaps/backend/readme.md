@@ -10,6 +10,7 @@
 * [Nest.js](../../skills/backend/nest/readme.md)
 * [Architectures](../../skills/backend/architectures/readme.md)
 * [CI/CD](../../skills/backend/cicd/readme.md)
+* Enterprise techniques
 
 ## Roadmap
 
