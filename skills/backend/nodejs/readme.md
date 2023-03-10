@@ -2,19 +2,12 @@
 
 ## Topics
 * Installing / configuring IDE
-* V8, libuv, Event loop, worker threads, child_process
-* Module System (commonJS, ES, global / module vars)
-* Node.js async development / Control flow
-* Node.js Profiling and Debugging
-* Communication Protocols (http vs https, ws, rest, graphql
-* Node.js secure app (CORS, JWT, OAuth?) (Experience in Implementing Data Protection)
-* Node.js package managers
-* Events
-* Buffer and Streams
-* Error handling
-* Node.js logging approaches
-* Working with file system
-* Node.js unit / integration testing (creating reasonable and valuable unit-tests) (Understanding the principles of software design, unit and integration testing.)
-* Diagnostics (debugging, tracing, profiling, step debugging)
+* Node.js internals (V8, libuv, Event loop, worker threads, child_process, how node.js works)
+* Module System (commonJS, ES, global / module vars) / Node.js package managers
+* Node.js async development / Control flow  (async/await, callbacks, promises)
+* Events (Event emitter)
+* Buffer and Streams ("fs")
+* Communication Protocols (TCP Socket, "net" package)
+* Error handling / Node.js logging approaches (JSON logging, NO STRINGS) - task: custom error tracker
 * Creating RESTfull services
-* Http,rest(min) performance 
+* Diagnostics (perf_hooks,  profiling, step debugging, chrome debugging)
