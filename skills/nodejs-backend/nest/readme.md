@@ -26,6 +26,24 @@ Key features:
   - Authentication
   - Authorization
   - CORS
+  - Helmet
+
+## Task
+
+1. Set up Nest.js
+2. Create domain model
+3. Create domain services
+4. Create application services including:
+  - CRUD
+  - Authentication and authorization
+  - Integration with external systems
+  - Validation
+5. Create infrastructure
+  - Storage (database, cache)
+  - Logger
+6. Create controllers
+7. Cover with tests
+
 
 ## Materials
 
