@@ -20,6 +20,7 @@ From database migrations to API integrations to setting up the server-side techn
 * WEb servers
 * Middleware
 * APIs
+* Postman app
 * Token-based Authentication and Single Sign-on
     * JSON Web Token (JWT)
     * Security Assertion Markup Language (SAML)
@@ -43,3 +44,4 @@ From database migrations to API integrations to setting up the server-side techn
 | [Most Used REST API Authentication Methods](https://dzone.com/articles/four-most-used-rest-api-authentication-methods)                                                             | article | Read about most used REST API Authentication methods                   |
 | [Awesome list of GraphQL](https://github.com/chentsulin/awesome-graphql)                                                                                                           | article | Awesome list of GraphQL                                                |
 | [The Fullstack Tutorial for GraphQL](https://www.howtographql.com/ )                                                                                                               | video   | The Fullstack Tutorial for GraphQL                                     |
+| [OWASP Top Ten](https://owasp.org/www-project-top-ten/ )                                                                                                                           | article | Top 10 Web Application Security Risks                                  |
