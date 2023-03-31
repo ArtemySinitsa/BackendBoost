@@ -23,7 +23,7 @@ graph TD
     patterns --> databases(Databases)
     databases --> frontend(Frontend)
     databases --> mobile(Mobile)
-    databases --> backend(Backend)
+    databases --> nodejs-backend(Node.js backend)
     databases --> testing(Testing)
 
 %% Skills
@@ -43,9 +43,9 @@ class business-communication,git,network,algorithm,oop,patterns,databases skill
 click frontend "ArtemySinitsa/labs/blob/main/roadmaps/frontend/readme.md"
 click testing "ArtemySinitsa/labs/blob/main/roadmaps/testing/readme.md"
 click mobile "ArtemySinitsa/labs/blob/main/roadmaps/mobile/readme.md"
-click backend "ArtemySinitsa/labs/blob/main/roadmaps/backend/readme.md"
+click nodejs-backend "ArtemySinitsa/labs/blob/main/roadmaps/nodejs-backend/readme.md"
 
-class frontend,testing,mobile,backend roadmap
+class frontend,testing,mobile,nodejs-backend roadmap
 
 classDef skill fill:#f7f8f8,stroke:#131314,stroke-width:1px,color:#131314
 classDef roadmap fill:#f7f8f8,stroke:#EB3D26,stroke-width:1px,color:#EB3D26
