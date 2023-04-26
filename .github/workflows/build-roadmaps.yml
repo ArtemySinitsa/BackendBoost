@@ -9,4 +9,4 @@ jobs:
       - name: Build roadmaps
         run: npx zx build/build.mjs
       - name: Commit roadmaps
-        run: npx zx .github/commit.mjs -message "build roadmaps"
+        run: npx zx .github/commit.mjs --message "build roadmaps"

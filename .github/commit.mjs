@@ -1,7 +1,9 @@
 #!/usr/bin/env zx
 
+const DEFAULT_COMMIT_MESSAGE = "commit all files";
+
 await $`git config --local user.email "itag.labs.automation@itag-labs.com"`;
 await $`git config --local user.name "itag-labs-automation"`;
 await $`git add .`;
-await $`git commit -m "${argv.message || "commit all files"}"`;
+await $`git commit -m "${argv.message || DEFAULT_COMMIT_MESSAGE}"`;
 await $`git push`;
