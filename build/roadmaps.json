@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Node.js backend",
+    "skills": [
+      { "name": "Backend overview", "path": "skills/nodejs-backend/readme.md" },
+      { "name": "Docker", "path": "skills/docker/readme.md" },
+      { "name": "Databases", "path": "skills/databases/readme.md" },
+      { "name": "Node.js", "path": "skills/nodejs-backend/nodejs/readme.md" },
+      { "name": "Typescript", "path": "skills/typescript/readme.md" },
+      { "name": "Nest.js", "path": "skills/nodejs-backend/nest/readme.md" },
+      { "name": "Architectures", "path": "skills/nodejs-backend/architectures/readme.md" },
+      { "name": "CI/CD", "path": "skills/nodejs-backend/cicd/readme.md" }
+    ]
+  }
+]
