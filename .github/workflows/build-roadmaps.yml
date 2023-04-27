@@ -19,5 +19,3 @@ jobs:
             echo('No changes in the skills folder');
           }
           EOF
-        run: npx zx build/build.mjs
-        run: npx zx .github/commit.mjs --message "build roadmaps"
