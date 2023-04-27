@@ -6,7 +6,18 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
-      - name: Build roadmaps
+      - name: Rebuild roadmaps if there are changes
+        run: |
+          npx zx <<'EOF'
+          if (await $`git diff skills`) {
+            echo('Changes in the skills folder detected');
+            echo('Building roadmaps...');
+            await $`npx zx build/build.mjs`;
+            echo('Commiting roadmaps...');
+            await $`npx zx .github/commit.mjs --message "build roadmaps"`;
+          } else {
+            echo('No changes in the skills folder');
+          }
+          EOF
         run: npx zx build/build.mjs
-      - name: Commit roadmaps
         run: npx zx .github/commit.mjs --message "build roadmaps"
