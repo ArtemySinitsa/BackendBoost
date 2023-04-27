@@ -2,7 +2,7 @@
 
 $.verbose = false;
 
-if (await $`git diff --name-only HEAD~ skills`.then(({ stdout }) => stdout)) {
+if (await $`git diff --name-only HEAD~ -- skills`.then(({ stdout }) => stdout)) {
   echo("Changes in the skills folder detected");
 
   echo("Building roadmaps...");
