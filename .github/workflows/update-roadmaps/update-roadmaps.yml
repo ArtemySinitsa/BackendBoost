@@ -1,0 +1,10 @@
+name: Update roadmaps
+on: [push]
+jobs:
+  Update-Roadmaps:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Rebuild roadmaps if there are changes
+        run: npx zx .github/workflows/update-roadmaps.mjs
