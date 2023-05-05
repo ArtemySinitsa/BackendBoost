@@ -32,9 +32,12 @@ React Frontend, Manual Testing, Automation Testing
 
 ## Contributing
 
-Before you start, please look at the detailed structure description for [**roadmaps**](./roadmaps/readme.md) and [**skills**](./skills/readme.md).
+Before you start, please look at the detailed structure description for [**skills**](./skills/readme.md).
 
 All the details about adding or updating content can be found [here](./contributing.md)
+
+A roadmap can be created either manually or dynamically. 
+To build a roadmap dynamically, include it into the roadmap [**configuration**](./build/dynamic-roadmaps.json). Every time a change in the skill folder is committed to the main branch the GitHub Action is triggered to rebuild roadmaps.
 
 ## Roadmaps
 * [Fundamentals](./roadmaps/fundamentals/readme.md)
