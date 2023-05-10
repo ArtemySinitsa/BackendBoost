@@ -10,7 +10,7 @@ const convertToDashedString = (str) =>
     .toLowerCase();
 
 const parseRoadmapsConfig = async () => {
-  const ROADMAPS_CONFIG_PATH = "build/roadmaps.json";
+  const ROADMAPS_CONFIG_PATH = "build/dynamic-roadmaps.json";
 
   try {
     return JSON.parse(await $`cat ${ROADMAPS_CONFIG_PATH}`);

@@ -2,7 +2,7 @@ name: Update roadmaps
 on:
   push:
     branches:
-      - "master"
+      - "main"
 jobs:
   Update-Roadmaps:
     runs-on: ubuntu-latest
