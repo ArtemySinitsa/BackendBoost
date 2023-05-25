@@ -1,0 +1,16 @@
+{
+  "name": "backendboost",
+  "version": "1.0.0",
+  "description": "A **Labs** project is to collect and structure all the available study materials in our department. *Not only materials created by our teammates, but any public resources that can help our mentors to support our mentee evolve*",
+  "main": "build.js",
+  "scripts": {
+    "build": "npx zx build/build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArtemySinitsa/BackendBoost.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

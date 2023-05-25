@@ -1,15 +1,15 @@
-name: Update roadmaps
+name: Update books
 on:
   push:
     branches:
       - "main"
 jobs:
-  Update-Roadmaps:
+  Update-Books:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
         with:
           fetch-depth: 2
-      - name: Rebuild roadmaps if there are changes
-        run: npx zx .github/workflows/update-roadmaps.mjs
+      - name: Rebuild books if there are changes
+        run: npx zx .github/workflows/update-books.mjs

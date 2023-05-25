@@ -1,6 +1,6 @@
 [
   {
-    "name": "Node.js backend",
+    "name": "Backend Boost",
     "skills": [
       { "name": "Backend overview", "path": "skills/nodejs-backend/readme.md" },
       { "name": "Docker", "path": "skills/docker/readme.md" },
