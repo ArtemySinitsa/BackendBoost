@@ -61,8 +61,7 @@ From database migrations to API integrations to setting up the server-side techn
 
 | Name                                                                                                                                                                 | Type     | Short Description                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-------------------------------------------------------------|
-| [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo) | video         | Get started using Docker with this end-to-end beginners course with hands-on labs.       |
-test<br><br><br># Databases
+| [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo) | video         | Get started using Docker with this end-to-end beginners course with hands-on labs.       |<br><br><br># Databases
 
 ## Description
 
@@ -232,8 +231,7 @@ A strongly typed programming language that builds on JavaScript and brings valua
 | [ECMAScript proposal: Type Annotations](https://github.com/tc39/proposal-type-annotations)                                                      | github repo   | Possible js/ts future                                      |
 | [Typed JavaScript? For real? The “type annotations” proposal and what it’s all about by Gil Tayar](https://www.youtube.com/watch?v=SdV9Xy0E4CM) | video         | /\                                                         |
 | [Collection of TypeScript type challenges](https://github.com/type-challenges/type-challenges)                                                  | github repo   | Collection of TypeScript type challenges with online judge |
-| [TypeScript Compiler Internals](https://basarat.gitbook.io/typescript/overview)                                                                 | article       | Understanding TypeScript compiler                          |
-test<br><br><br># Nest.js
+| [TypeScript Compiler Internals](https://basarat.gitbook.io/typescript/overview)                                                                 | article       | Understanding TypeScript compiler                          |<br><br><br># Nest.js
 
 ## Description
 
