@@ -6,7 +6,7 @@ const changesToCheck = ["skills", "build/config.json"];
 
 const getOutput = ({ stdout }) => stdout;
 
-const getDiff = (resource) => $`git diff --name-only HEAD~ -- ${resource}`.then(getOutput);
+const getDiff = (commit = "HEAD~", resource) => $`git diff --name-only ${commit} -- ${resource}`.then(getOutput);
 
 const getWorkingTreeStatus = () => $`git status --porcelain`.then(getOutput);
 
@@ -15,7 +15,7 @@ const buildBoosts = () => $`npm run build`;
 const commit = (message) => $`npx zx .github/commit.mjs --message "${message}"`;
 
 const updateBoosts = async () => {
-  const diffs = await Promise.all(changesToCheck.map((resource) => getDiff(resource)));
+  const diffs = await Promise.all(changesToCheck.map((resource) => getDiff(argv["latest-commit"], resource)));
   const changes = diffs.filter(Boolean);
 
   if (changes.length === 0) {

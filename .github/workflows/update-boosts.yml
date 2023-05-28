@@ -8,5 +8,11 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 2
+
+      - name: Get the latest commit
+      - run: echo "LATEST_COMMIT=${{ github.event.before }}" >> $GITHUB_ENV
+
       - name: Rebuild boosts if there are changes
-        run: npx zx .github/workflows/update-boosts.mjs
+        run: |
+          echo "Latest commit: $LATEST_COMMIT"
+          npx zx .github/workflows/update-boosts.mjs --latest-commit $LATEST_COMMIT
