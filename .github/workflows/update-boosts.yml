@@ -7,7 +7,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
         with:
-          fetch-depth: 2
+          fetch-depth: ${{ github.event.commits.length }}
 
       - name: Get the latest commit
         run: echo "LATEST_COMMIT=${{ github.event.before }}" >> $GITHUB_ENV
@@ -15,4 +15,4 @@ jobs:
       - name: Rebuild boosts if there are changes
         run: |
           echo "Latest commit: $LATEST_COMMIT"
-          npx zx .github/workflows/update-boosts.mjs --latest-commit 18737
+          npx zx .github/workflows/update-boosts.mjs --latest-commit $LATEST_COMMIT
