@@ -10,7 +10,7 @@ jobs:
           fetch-depth: 2
 
       - name: Get the latest commit
-      - run: echo "LATEST_COMMIT=${{ github.event.before }}" >> $GITHUB_ENV
+        run: echo "LATEST_COMMIT=${{ github.event.before }}" >> $GITHUB_ENV
 
       - name: Rebuild boosts if there are changes
         run: |
