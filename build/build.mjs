@@ -19,13 +19,13 @@ const parseConfig = async () => {
   }
 };
 
-const buildBooks = async () => {
+const buildBoosts = async () => {
   const SKILLS_TITLE = "## Skills";
 
-  const books = await parseConfig();
+  const boosts = await parseConfig();
 
-  for (const book of books) {
-    const { skills } = book;
+  for (const boost of boosts) {
+    const { skills } = boost;
 
     const skillsList = skills.map(({ name }) => `* [${name}](#${convertToDashedString(name)})`).join("\n");
     const mergedSkills = await Promise.all(skills.map(async ({ path }) => await $`cat ${path}`)).then((contents) =>
@@ -36,9 +36,9 @@ const buildBooks = async () => {
     output += `${skillsList}\n`;
     output += mergedSkills;
 
-    await $`mkdir -p books`;
-    await $`echo ${output} > books/${convertToDashedString(book.name)}.md`;
+    await $`mkdir -p boosts`;
+    await $`echo ${output} > boosts/${convertToDashedString(boost.name)}.md`;
   }
 };
 
-buildBooks();
+buildBoosts();

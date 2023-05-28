@@ -1,12 +1,12 @@
-name: Update books
+name: Update boosts
 on: [push]
 jobs:
-  Update-Books:
+  Update-Boosts:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
         with:
           fetch-depth: 2
-      - name: Rebuild books if there are changes
-        run: npx zx .github/workflows/update-books.mjs
+      - name: Rebuild boosts if there are changes
+        run: npx zx .github/workflows/update-boosts.mjs

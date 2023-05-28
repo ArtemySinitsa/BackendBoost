@@ -10,11 +10,11 @@ const getDiff = (resource) => $`git diff --name-only HEAD~ -- ${resource}`.then(
 
 const getWorkingTreeStatus = () => $`git status --porcelain`.then(getOutput);
 
-const buildBooks = () => $`npm run build`;
+const buildBoosts = () => $`npm run build`;
 
 const commit = (message) => $`npx zx .github/commit.mjs --message "${message}"`;
 
-const updateBooks = async () => {
+const updateBoosts = async () => {
   const diffs = await Promise.all(changesToCheck.map((resource) => getDiff(resource)));
   const changes = diffs.filter(Boolean);
 
@@ -26,16 +26,16 @@ const updateBooks = async () => {
 
   echo("Changes detected");
 
-  echo("Building books...");
-  await buildBooks();
+  echo("Building boosts...");
+  await buildBoosts();
 
   if (!(await getWorkingTreeStatus())) {
     echo("Nothing to commit");
     process.exit(0);
   }
 
-  echo("Commiting books...");
-  await commit("build books");
+  echo("Commiting boosts...");
+  await commit("build boosts");
 };
 
-updateBooks();
+updateBoosts();
