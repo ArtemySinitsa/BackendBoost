@@ -15,4 +15,4 @@ jobs:
       - name: Rebuild boosts if there are changes
         run: |
           echo "Latest commit: $LATEST_COMMIT"
-          npx zx .github/workflows/update-boosts.mjs --latest-commit $LATEST_COMMIT
+          npx zx .github/workflows/update-boosts.mjs --latest-commit 18737
