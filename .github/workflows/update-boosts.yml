@@ -7,7 +7,7 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v3
         with:
-          fetch-depth: ${{ github.event.commits.length }}
+          fetch-depth: ${{ add(github.event.commits.length, 1) }}
 
       - name: Get the latest commit
         run: echo "LATEST_COMMIT=${{ github.event.before }}" >> $GITHUB_ENV
