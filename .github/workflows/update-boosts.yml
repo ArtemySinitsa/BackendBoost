@@ -4,10 +4,16 @@ jobs:
   Update-Boosts:
     runs-on: ubuntu-latest
     steps:
+      - name: Set number of commits
+        env:
+          NUMBER_OF_PUSHED_COMMITS: ${{ github.event.commits.length }}
+        run: |
+          echo "Number of pushed commits $NUMBER_OF_PUSHED_COMMITS"
+
       - name: Check out repository code
         uses: actions/checkout@v3
         with:
-          fetch-depth: ${{ github.event.commits.length + 1 }}
+          fetch-depth: ${{ github.event.commits.length }}
 
       - name: Get the latest commit
         run: echo "LATEST_COMMIT=${{ github.event.before }}" >> $GITHUB_ENV
