@@ -35,7 +35,8 @@ const updateBoosts = async () => {
   }
 
   echo("Commiting boosts...");
-  await commit("build boosts");
+  const commitMessage = 'build boosts';
+  await commit(commitMessage);
 };
 
 updateBoosts();
