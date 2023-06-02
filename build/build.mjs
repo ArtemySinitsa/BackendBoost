@@ -36,8 +36,7 @@ const buildBoosts = async () => {
     output += `${skillsList}\n`;
     output += mergedSkills;
 
-    await $`mkdir -p boosts`;
-    await $`echo ${output} > boosts/${convertToDashedString(boost.name)}.md`;
+    await $`echo ${output} > ${convertToDashedString(boost.name)}.md`;
   }
 };
 
