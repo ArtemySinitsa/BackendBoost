@@ -1,5 +1,8 @@
 name: Update boosts
-on: [push]
+on:
+  push:
+    branches:
+      - "main"
 jobs:
   Update-Boosts:
     runs-on: ubuntu-latest
