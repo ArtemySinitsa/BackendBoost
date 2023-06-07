@@ -9,24 +9,23 @@ const convertToDashedString = (str) =>
     .replace(/--+/g, "-")
     .toLowerCase();
 
-const parseRoadmapsConfig = async () => {
-  const ROADMAPS_CONFIG_PATH = "build/dynamic-roadmaps.json";
+const parseConfig = async () => {
+  const CONFIG_PATH = "build/config.json";
 
   try {
-    return JSON.parse(await $`cat ${ROADMAPS_CONFIG_PATH}`);
+    return JSON.parse(await $`cat ${CONFIG_PATH}`);
   } catch (e) {
-    throw new Error(`Failed to parse roadmaps config: ${e}`);
+    throw new Error(`Failed to parse the config: ${e}`);
   }
 };
 
-const buildRoadmaps = async () => {
-  const ROADMAPS_FOLDER = "roadmaps";
+const buildBoosts = async () => {
   const SKILLS_TITLE = "## Skills";
 
-  const roadmaps = await parseRoadmapsConfig();
+  const boosts = await parseConfig();
 
-  for (const roadmap of roadmaps) {
-    const { skills } = roadmap;
+  for (const boost of boosts) {
+    const { skills } = boost;
 
     const skillsList = skills.map(({ name }) => `* [${name}](#${convertToDashedString(name)})`).join("\n");
     const mergedSkills = await Promise.all(skills.map(async ({ path }) => await $`cat ${path}`)).then((contents) =>
@@ -37,10 +36,8 @@ const buildRoadmaps = async () => {
     output += `${skillsList}\n`;
     output += mergedSkills;
 
-    const roadmapOwnFolder = `${ROADMAPS_FOLDER}/${convertToDashedString(roadmap.name)}`;
-    await $`mkdir -p ${roadmapOwnFolder}`;
-    await $`echo ${output} > ${roadmapOwnFolder}/readme.md`;
+    await $`echo ${output} > ${convertToDashedString(boost.name)}.md`;
   }
 };
 
-buildRoadmaps();
+buildBoosts();

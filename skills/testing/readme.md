@@ -1,5 +1,6 @@
 # Testing
 
 ## Topics
-* Integration testing
-* Unit testing
+
+- Integration testing
+- Unit testing
