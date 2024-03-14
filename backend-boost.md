@@ -55,13 +55,17 @@ From database migrations to API integrations to setting up the server-side techn
 | [Awesome list of GraphQL](https://github.com/chentsulin/awesome-graphql)                                                                                                           | article | Awesome list of GraphQL                                                |
 | [The Fullstack Tutorial for GraphQL](https://www.howtographql.com/ )                                                                                                               | video   | The Fullstack Tutorial for GraphQL                                     |
 | [OWASP Top Ten](https://owasp.org/www-project-top-ten/ )                                                                                                                           | article | Top 10 Web Application Security Risks                                  |
-<br><br><br># Docker
+| [Intro to AWS](https://www.youtube.com/watch?v=FDEpdNdFglI&ab_channel=BeABetterDev )                                                                                                                           | video | How different AWS services work together                                  |
+
+<br><br><br>
+# Docker
 
 ## Theoretical Materials| Name                                                                                                                                        | Type     | Short Description
 
 | Name                                                                                                                                                                 | Type     | Short Description                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-------------------------------------------------------------|
-| [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo) | video         | Get started using Docker with this end-to-end beginners course with hands-on labs.       |<br><br><br># Databases
+| [Docker Tutorial for Beginners](https://www.youtube.com/watch?v=fqMOX6JJhGo) | video         | Get started using Docker with this end-to-end beginners course with hands-on labs.       |<br><br><br>
+# Databases
 
 ## Description
 
@@ -96,7 +100,8 @@ In summary, backend developers should learn about both SQL and NoSQL databases b
 | [views](https://www.tutorialspoint.com/sql/sql-using-views.htm)                                                                      | article  | views             |
 | [indexes](https://planetscale.com/blog/how-do-database-indexes-work)                                                                 | article  | indexes           |
 | [Transactions](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/transactions-transact-sql?view=sql-server-ver16)        | article  | Transactions      |
-<br><br><br># Node.js
+<br><br><br>
+# Node.js
 
 ## Description
 Node.js is a powerful and popular runtime environment for server-side JavaScript applications. It allows developers to use JavaScript to build high-performance, scalable, and efficient network applications, such as web servers, APIs, and real-time applications.
@@ -164,7 +169,8 @@ Node.js provides a wide range of built-in modules that can be used to perform va
      - send a file path to start parsing
    - add HTTP interface to parser
      - upload the file via Postman
-   - 3rd party API integration<br><br><br># Typescript
+   - 3rd party API integration<br><br><br>
+# Typescript
 
 ## Description
 
@@ -231,7 +237,8 @@ A strongly typed programming language that builds on JavaScript and brings valua
 | [ECMAScript proposal: Type Annotations](https://github.com/tc39/proposal-type-annotations)                                                      | github repo   | Possible js/ts future                                      |
 | [Typed JavaScript? For real? The “type annotations” proposal and what it’s all about by Gil Tayar](https://www.youtube.com/watch?v=SdV9Xy0E4CM) | video         | /\                                                         |
 | [Collection of TypeScript type challenges](https://github.com/type-challenges/type-challenges)                                                  | github repo   | Collection of TypeScript type challenges with online judge |
-| [TypeScript Compiler Internals](https://basarat.gitbook.io/typescript/overview)                                                                 | article       | Understanding TypeScript compiler                          |<br><br><br># Nest.js
+| [TypeScript Compiler Internals](https://basarat.gitbook.io/typescript/overview)                                                                 | article       | Understanding TypeScript compiler                          |<br><br><br>
+# Nest.js
 
 ## Description
 
@@ -313,7 +320,8 @@ Key features:
 | [CORS](https://docs.nestjs.com/security/cors)                                                                                                            | documentation | Official documentation about CORS                         |
 | [Exploring the idea of microservices](https://wanago.io/2020/11/16/api-nestjs-microservices/)                                                            | tutorial      |                                                           |
 | [Nest.js Crash Course](https://www.youtube.com/watch?v=pcX97ZrTE6M&list=PL4cUxeGkcC9g8YFseGdkyj9RH9kVs_cMr)                                              | videos        | Quick introduction through a playlist of short videos     |
-<br><br><br># Architectures
+<br><br><br>
+# Architectures
 
 ## Description
 
@@ -362,7 +370,8 @@ https://github.com/Sairyss/backend-best-practices
 | [Clean Architecture and Design](https://www.youtube.com/watch?v=Nsjsiz2A9mg)                                                                | video    | Clean Architecture and Design                       | 1        | 1              |
 | [Event Driven](https://www.youtube.com/watch?v=STKCRSUsyP0&list=PLzlEgn_KsNQ5lq8v0mVkPOzlHnrCmdBuG&index=1&ab_channel=GOTOConferences)      | video    | Event Driven Architecture                           | 1        | 1              |
 | [Event Driven](https://github.dev/damiancipolat/Node-event-saga)                                                                            | code     | Event Driven Architecture                           | 1        | 1              |
-<br><br><br># CI/CD
+<br><br><br>
+# CI/CD
 
 ## Description
 

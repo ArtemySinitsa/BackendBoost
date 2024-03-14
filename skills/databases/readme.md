@@ -29,7 +29,6 @@ In summary, backend developers should learn about both SQL and NoSQL databases b
 | [What is nosql?](https://www.youtube.com/watch?v=qI_g07C_Q5I&ab_channel=GOTOConferences)                                             | video    | noSql             |
 | [noSql mongodDB](https://learn.mongodb.com/learning-paths/introduction-to-mongodb)                                                   | tutorial | noSql             |
 | [stored procedures](https://www.sqlshack.com/sql-server-stored-procedures-for-beginners/)                                            | article  | stored procedures |
-| [views](https://www.datacamp.com/article/views-in-sql)                                                                               | article  | views             |
 | [views](https://www.tutorialspoint.com/sql/sql-using-views.htm)                                                                      | article  | views             |
 | [indexes](https://planetscale.com/blog/how-do-database-indexes-work)                                                                 | article  | indexes           |
 | [Transactions](https://learn.microsoft.com/en-us/sql/t-sql/language-elements/transactions-transact-sql?view=sql-server-ver16)        | article  | Transactions      |
